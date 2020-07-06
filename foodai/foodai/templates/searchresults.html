@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>FoodSnap.ai</title>
+    <link rel="stylesheet" href={% static "assets/bootstrap/css/bootstrap.min.css" %}>
+    <link rel="stylesheet" href={% static "assets/fonts/ionicons.min.css" %}>
+    <link rel="stylesheet" href={% static "assets/css/gradient-navbar-1.css" %}>
+    <link rel="stylesheet" href={% static "assets/css/gradient-navbar.css" %}>
+    <link rel="stylesheet" href={% static "assets/css/Login-Form-Clean.css" %}>
+    <link rel="stylesheet" href={% static "assets/css/Navigation-with-Button.css" %}>
+    <link rel="stylesheet" href={% static "assets/css/styles.css" %}>
+    <link rel="stylesheet" href={% static "assets/css/Highlight-Phone.css" %}>
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+        <div class="container"><a class="navbar-brand" href="">FoodSnap.AI</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav mr-auto"></ul>
+                <span class="navbar-text actions"> <a class="login" href="/login">Log In</a><a class="btn btn-light action-button" role="button" href="/registration">Sign Up</a></span></div>
+        </div>
+    </nav>
+    <div class="highlight-phone">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="intro">
+                        <h2>Burger</h2></div>
+                        <h4>Ingredients</h4>
+                        <ul><p><li>1 pound - ground chicken</li>
+                            <li>1 - medium-sized onion</li>
+                            <li>1 - egg</li>
+                            <li>1 tsp - red chilli powder</li>
+                            <li>Salt</li>
+                            <li>1 tsp - pepper powder</li>
+                            <li>Bread crumbs</li>
+                            <li>Oil for frying</li>
+                            <li>Hamburger buns - as needed</li>
+                            <li>Hamburger stacker pickle</li>
+                            <li>1 - tomato</li>
+                            <li>Mayonnaise</li>
+                            <li>American sliced cheese</li></p></ul>
+                        <h4>Method</h4>
+                        <p><ul>
+                            <li>Mince the onion and then mix it with ground chicken, chilli powder, pepper powder, salt, egg, and the bread crumbs.</li>
+                            <li>Once you have mixed the above ingredients, shape them into patties and then shallow fry them. Once the meat is cooked, keep the burgers aside.</li>
+                            <li>Now take the hamburger bread, and coat it with mayonnaise. Then keep the burger on top of one slice of the bread. Next put a slice of tomato and onion over this burger. Put the slice of American cheese and pickled stacker.</li>
+                            <li>Next, put the other slice of the hamburger bread.</li>
+                        </ul></p>
+
+                </div>
+                <div class="col-sm-4">
+                    <img class="img-fluid" src="{% static '4.jpg' %}" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src={% static "assets/js/jquery.min.js" %}></script>
+    <script src={% static "assets/bootstrap/js/bootstrap.min.js" %}></script>
+</body>
+
+</html>
